@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="row">
+    <div class="form-control col s8">
+      <input placeholder="Name" #ref [(ngModel)]="todo.name" type="text" class="validate">
+    </div>
+    <div class="form-control col s8">
+      <select [(ngModel)]="todo.status">
+        <option value="0">TODO</option>
+        <option value="1">IN PROGRESS</option>
+        <option value="2">IN REVIEW</option>
+        <option value="3">BUG</option>
+        <option value="4">DONE</option>
+      </select>
+    </div>
+    <div class="form-control col s8">
+      <button type="button" class="btn red darken-1" (click)="add()">Add item</button>
+    </div>
+  </div>
+</div>

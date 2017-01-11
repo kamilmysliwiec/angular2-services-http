@@ -1,14 +1,11 @@
-<app-header>
-  <a href="#">
-    <img src="assets/images/logo.svg" alt="Logo" />
-  </a>
-</app-header>
-<app-main>
-  <h5>Dashboard</h5>
-  <app-activities-list sidebar></app-activities-list>
-</app-main>
-<app-footer>
-  <p class="grey-text text-lighten-4">
-    © 2016 Copyright Text
-  </p>
-</app-footer>
+<div class="container">
+  <h2 #ref>Todo App</h2>
+  <add-todo (addTodo)="addTodo($event)" #addTodoRef></add-todo>
+  <div class="todo-list">
+    <ul class="collection">
+      <li *ngFor="let todo of todos" class="collection-item">
+        <todo-item [item]="todo" (removeTodo)="removeTodo($event)"></todo-item>
+      </li>
+    </ul>
+  </div>
+</div>

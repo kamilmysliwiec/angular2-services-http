@@ -1,0 +1,16 @@
+.card {
+  padding: 15px 25px;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+select {
+  display: block;
+}
+
+input[type=text]:focus {
+  border-bottom: 1px solid #E53935;
+  box-shadow: 0 1px 0 0 #E53935;
+}

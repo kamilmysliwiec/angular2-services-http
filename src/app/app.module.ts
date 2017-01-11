@@ -4,20 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { MainComponent } from './main/main.component';
-import { ActivitiesListComponent } from './activities-list/activities-list.component';
-import { CardComponent } from './card/card.component';
+import { AddTodoComponent } from './add-todo/add-todo.component';
+import { TodoItemComponent } from './todo-item/todo-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    MainComponent,
-    ActivitiesListComponent,
-    CardComponent
+    AddTodoComponent,
+    TodoItemComponent
   ],
   imports: [
     BrowserModule,

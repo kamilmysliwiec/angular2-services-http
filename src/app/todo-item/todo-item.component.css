@@ -1,0 +1,14 @@
+* {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.material-icons {
+  float: right;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.status {
+  margin-left: 10px;
+}
