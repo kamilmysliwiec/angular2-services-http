@@ -1,4 +1,4 @@
-# Kurs Angular 2 – Komunikacja, @Input i @Output
+# Kurs Angular 2 – Warstwa serwisów, podstawy
 
 Artykuł: http://kamilmysliwiec.com/kurs-angular-2-komunikacja-input-output
 
