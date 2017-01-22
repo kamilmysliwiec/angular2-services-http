@@ -11,17 +11,16 @@ import { TodosService } from "./todos.service";
   providers: [ TodosService ]
 })
 export class AppComponent {
-  public todos: Todo[];
   @ViewChild('ref') ref: ElementRef;
   @ViewChildren(TodoItemComponent) todosRefsList: QueryList<TodoItemComponent>;
+
+  public todos: Todo[];
 
   constructor(private todosService: TodosService) {
     this.todos = todosService.getTodos();
   }
 
   public addTodo(todo: Todo) {
-    console.log(this.todosRefsList);
-    console.log(this.ref);
     this.todos.unshift(todo);
   }
 
