@@ -1,6 +1,6 @@
-# Kurs Angular 2 – Warstwa serwisów, podstawy
+# Kurs Angular 2 – Warstwa serwisów, moduł HTTP
 
-Artykuł: http://kamilmysliwiec.com/kurs-angular-2-warstwa-serwisow-podstawy
+Artykuł: http://kamilmysliwiec.com/kurs-angular-2-warstwa-serwisow-modul-http
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
